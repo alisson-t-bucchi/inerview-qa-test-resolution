@@ -10,13 +10,20 @@ in project object model (POM).
 ## 📌 2. Scope
 The tests will cover the following key functionalities:
 
-✅ Cypress test automation
-✅ DOM element manipulation  
-✅ Comportament behavior verification  
-✅ HTTP request handling  
-✅ Database query testing
-✅ Documentation practices
+✅ Cypress test automation 
+
+✅ DOM element manipulation 
+
+✅ Comportament behavior verification 
+
+✅ HTTP request handling 
+
+✅ Database query testing 
+
+✅ Documentation practices 
+
 ✅ Problem-solving approach 
+
 
 ---
 
@@ -35,13 +42,9 @@ The 7 test cases are in the e2e folder and must obey some business rules describ
 | ID         | Test Case                         | Steps | Expected Result |
 |------------|-----------------------------------|--------|--------------------|
 | exercise 1 | Find Product with Specific Price  | 1. Access the main page <br> 2. Search for products with 59 value <br> 3. Search the product Mouse with id 45628 | Mouse99 |
-
 | exercise 2 | Complete the code to find specific elements within the row that matches the 05/15/2024 date (in Los Angeles timezone).  | 1. Access the main page <br> 2. Find the table row with the specific date <br> 3. Assert the row contains a <p> with text "First" | 4. Assert the row with a <span> with text "Accept" | 5. "Assert the row contains a "View" button | 6. Click the "Order More" button | Second line with the types assigned have the button "Order More" clicked |
-
 | exercise 3 | Verify if a specific checkbox is checked | 1. Access the main page <br> | 2. Select the component container and find the ".item-content" inside | 3. Locate tag <p> with text "Test2" until to the parent of the <p> element | 4. Find a checkbox inside and assert is checked | Find the second line with "Text2" with a checked box. |
-
 | exercise 4 | Verify elemnts relationship | 1. Access the main page <br> | 2. Locate the container and find a <span> with text "old-car" | 3. Get the parent of the "old-car" span tag | 4. Search within the parent for a <span> with text "1" | Find the second line with "old-car 1" exist. |
-
 | exercise 5 | Create a custom Cypress command for a user login | 1. Access the command.js file and execute the following steps: fill the email and password input, click the submit button and verify welcome message | 2. Go to test and execute the login page | Find a message "Welcome back" after insert email, password and click submit button. |
 ---
 
@@ -63,9 +66,7 @@ cd <REPOSITORY_NAME>
 npm install
 ```
 ## 📌 6. Test execution
-The user have 2 options to execute test with Cypress:
-- headless mode
-- interactive mode
+User can execute Cypress test in a headless or interactive mode. 
 
 - Headless mode:
 
