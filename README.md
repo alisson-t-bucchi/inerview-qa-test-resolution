@@ -94,7 +94,7 @@ npx cypress run --spec <path to the test file>
   "test": "cypress run" 
   },
 ```
-2. Execute all tests:
+2. Open Cypress display and choose the tests to execute:
 ```bash
 npm run cy:open
 ```
