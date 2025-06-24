@@ -85,15 +85,16 @@ npm tests
 ```bash
 npx cypress run --spec <path to the test file>
 ```
-4. Activate Cypress in a interactive mode:
-Insert in the script section of the package.json file the code below:
+- Interactive mode:
+
+1. Insert in the script section of the package.json file the code below:
 ```bash
 "scripts": {
   "cy:open": "cypress open",
   "test": "cypress run" 
   },
 ```
-5. Execute all tests:
+2. Execute all tests:
 ```bash
 npm run cy:open
 ```
