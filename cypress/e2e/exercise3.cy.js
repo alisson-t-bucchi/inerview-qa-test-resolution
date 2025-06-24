@@ -14,7 +14,7 @@ Similar structures appear in different grids
 Some "Test2" texts are in different element types
 */
 
-describe('Test automation xxercise 3', () => {
+describe('Test automation exercise 3', () => {
     
     beforeEach(() => {
         cy.visit('/')
